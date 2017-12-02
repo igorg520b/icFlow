@@ -7,7 +7,7 @@ Sample simulation setups are available at: https://goo.gl/AvZC4u
 Additional geometries can be generated with Never: http://neper.sourceforge.net/
 This code requires Intel Math Kernel Library
 
-##Building instructions for Windows
+## Building instructions for Windows
 
 Required libraries: Intel MKL, OpenTK, ManagedCUDA, CUDA Toolkit 9.0
 Hardware: CUDA device with compute capability 3.0 or above
