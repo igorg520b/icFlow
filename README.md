@@ -34,6 +34,8 @@ mkl_vml_mc3.dll
 
 Build PardisoLoader2.dll, which is a wrapper for MKL's PARDISO solver.
 Rebuild collision_kernels, cz_kernels and elem_kernels into corresponding .ptx files. Set compute capability to 3.0 or higher. 
-Build OpenTK, ManagedCUDA, icFlowLibrary, and SimGUI. Load the simulation setup from one of the following:
+Build OpenTK, ManagedCUDA, icFlowLibrary, and SimGUI. 
+
+Load the simulation setup from one of the following:
 https://goo.gl/AvZC4u
 Additional geometries can be generated with Neper: http://neper.sourceforge.net/
