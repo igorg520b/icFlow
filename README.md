@@ -39,7 +39,4 @@ mkl_vml_mc.dll
 mkl_vml_mc2.dll
 mkl_vml_mc3.dll
 
-For compute capability 3.0, rebuild collision_kernels, cz_kernels and elem_kernels into 
-corresponding .ptx files.
-If your CUDA device supports compute capability 5.2+, just use the provided PTX files.
-Build OpenTK, ManagedCUDA, icFlowLibrary, and SimGUI. 
+Rebuild collision_kernels, cz_kernels and elem_kernels into corresponding .ptx files. Set compute capability to 3.0 or higher. Build OpenTK, ManagedCUDA, icFlowLibrary, and SimGUI. 
