@@ -4,7 +4,9 @@ Source code for fracture simulaiton, based on cohesive zone model and implicit f
 * Cohesive Zone Micromechanical Model for Compressive and Tensile Failure of Polycrystalline Ice
 
 Sample simulation setups are available at: https://goo.gl/AvZC4u
+
 Additional geometries can be generated with Never: http://neper.sourceforge.net/
+
 This code requires Intel Math Kernel Library
 
 ## Building instructions for Windows
