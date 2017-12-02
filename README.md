@@ -5,7 +5,7 @@ Source code for fracture simulaiton, based on cohesive zone model and implicit f
 
 This code requires Intel Math Kernel Library
 
-## Building instructions for Windows
+## Building instructions for Visual Studio in Windows
 
 Required libraries: Intel MKL, OpenTK, ManagedCUDA, CUDA Toolkit 9.0. It is possible to build the library with other versions of CUDA Toolkit, but the supplied project files support only Toolkit 9.0. Use 64 bit architecture consistently for all libraries and PTX.
 
