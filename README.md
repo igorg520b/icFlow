@@ -36,6 +36,5 @@ Build PardisoLoader2.dll, which is a wrapper for MKL's PARDISO solver.
 If needed, rebuild collision_kernels, cz_kernels and elem_kernels into corresponding .ptx files. Set compute capability to 3.0 or higher. 
 Build OpenTK, ManagedCUDA, icFlowLibrary, and SimGUI. Alternatively, OpenTK and OpenTK.GLControl can be obtained via NuGet.
 
-Load the simulation setup from one of the following:
-https://goo.gl/AvZC4u
+Test simulation setups are available from the following location: https://goo.gl/AvZC4u. They should be copied into '_sims' subfolder in the application path.
 Additional geometries can be generated with Neper: http://neper.sourceforge.net/
