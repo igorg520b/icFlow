@@ -7,7 +7,7 @@ This code requires Intel Math Kernel Library
 
 ## Building instructions for Visual Studio in Windows
 
-Required libraries: Intel MKL, OpenTK, ManagedCUDA, CUDA Toolkit 9.0. It is possible to build the library with other versions of CUDA Toolkit, but the supplied project files only support CUDA 9.0. Use 64 bit architecture consistently for all libraries and PTX.
+Required libraries: Intel MKL, OpenTK, OpenTK.GLControl, ManagedCUDA, CUDA Toolkit 9.1. It is possible to build the library with other versions of CUDA Toolkit, but the supplied project is for CUDA 9.1. Use 64 bit architecture consistently for all libraries and PTX.
 
 Copy MKL libraries (64 bit) to the project folder or make them accessible via PATH variable:
 mkl_avx.dll
@@ -33,8 +33,8 @@ mkl_vml_mc2.dll
 mkl_vml_mc3.dll
 
 Build PardisoLoader2.dll, which is a wrapper for MKL's PARDISO solver.
-Rebuild collision_kernels, cz_kernels and elem_kernels into corresponding .ptx files. Set compute capability to 3.0 or higher. 
-Build OpenTK, ManagedCUDA, icFlowLibrary, and SimGUI. 
+If needed, rebuild collision_kernels, cz_kernels and elem_kernels into corresponding .ptx files. Set compute capability to 3.0 or higher. 
+Build OpenTK, ManagedCUDA, icFlowLibrary, and SimGUI. Alternatively, OpenTK and OpenTK.GLControl can be obtained via NuGet.
 
 Load the simulation setup from one of the following:
 https://goo.gl/AvZC4u
