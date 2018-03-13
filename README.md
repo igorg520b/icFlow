@@ -36,3 +36,5 @@ Build PardisoLoader2.dll, which is a wrapper for MKL's PARDISO solver. PTX files
 
 Test simulation setups are available from the following location: https://goo.gl/AvZC4u. They should be copied into '_sims' subfolder in the application path.
 Additional geometries can be generated with Neper: http://neper.sourceforge.net/
+
+![alt text](https://github.com/igorg520b/icFlow/blob/master/icFlow.png?raw=true)
