@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{75B64315-D1B3-4FEE-8316-3D8D1DE8C4A5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>icFlow</RootNamespace>
+    <AssemblyName>icFlowLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ManagedCuda">
+      <HintPath>D:\libraries\kunzmi-managedCuda-870714a\ManagedCUDA\bin\Release\ManagedCuda.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Collisions\BVH\BVHT_Alt1.cs" />
+    <Compile Include="Collisions\ForceCalculations\CollisionResponse.cs" />
+    <Compile Include="Collisions\ForceCalculations\PT_Derivative.cs" />
+    <Compile Include="Geometry\MeshCollection.cs" />
+    <Compile Include="Geometry\Mesh\SurfaceFragment.cs" />
+    <Compile Include="Geometry\Mesh\Translation.cs" />
+    <Compile Include="Geometry\Tools\MakeTorus.cs" />
+    <Compile Include="Simulation\LinearSystem.cs" />
+    <Compile Include="Collisions\BVH\BVHN.cs" />
+    <Compile Include="Collisions\BVH\BVHT.cs" />
+    <Compile Include="Collisions\BVH\kDOP24.cs" />
+    <Compile Include="Geometry\CZ.cs" />
+    <Compile Include="Geometry\Element.cs" />
+    <Compile Include="Geometry\Face.cs" />
+    <Compile Include="Geometry\GranuleEdge.cs" />
+    <Compile Include="Geometry\Mesh\Mesh.cs" />
+    <Compile Include="Geometry\Node.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Simulation\DataSheets\FrameInfo.cs" />
+    <Compile Include="Simulation\GPU\GPU_Functionality.cs" />
+    <Compile Include="Simulation\ImplicitModel3.cs" />
+    <Compile Include="Simulation\DataSheets\ModelPrms.cs" />
+    <Compile Include="Geometry\Tools\CZInsertionTool.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

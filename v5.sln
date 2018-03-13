@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "icFlowLibrary", "v3Library\icFlowLibrary.csproj", "{75B64315-D1B3-4FEE-8316-3D8D1DE8C4A5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "collision_kernels9", "collision_kernels9\collision_kernels9.vcxproj", "{12D77EEF-45C4-4EDD-B1EF-98E233AB4B1F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cz_kernels9", "cz_kernels9\cz_kernels9.vcxproj", "{26073E3E-1DBB-407F-9A6F-50EF14CCFC8D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "elem_kernels9", "elem_kernels9\elem_kernels9.vcxproj", "{B7ED9316-C36D-45A3-BCDA-52590899FBA3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reduction_kernels", "reduction_kernels\reduction_kernels.vcxproj", "{31E74BEC-A8DB-4C60-B2E4-736A67521772}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PardisoLoader2", "PardisoLoader2\PardisoLoader2.vcxproj", "{4528D563-ABD5-4178-AE47-7B76816F05F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimGUI", "SimGUI\SimGUI.csproj", "{52144695-5B84-406C-977A-D3F62F78BB78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75B64315-D1B3-4FEE-8316-3D8D1DE8C4A5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{75B64315-D1B3-4FEE-8316-3D8D1DE8C4A5}.Debug|x64.Build.0 = Debug|Any CPU
+		{12D77EEF-45C4-4EDD-B1EF-98E233AB4B1F}.Debug|x64.ActiveCfg = Release|x64
+		{12D77EEF-45C4-4EDD-B1EF-98E233AB4B1F}.Debug|x64.Build.0 = Release|x64
+		{12D77EEF-45C4-4EDD-B1EF-98E233AB4B1F}.Debug|x64.Deploy.0 = Release|x64
+		{26073E3E-1DBB-407F-9A6F-50EF14CCFC8D}.Debug|x64.ActiveCfg = Release|x64
+		{26073E3E-1DBB-407F-9A6F-50EF14CCFC8D}.Debug|x64.Build.0 = Release|x64
+		{26073E3E-1DBB-407F-9A6F-50EF14CCFC8D}.Debug|x64.Deploy.0 = Release|x64
+		{B7ED9316-C36D-45A3-BCDA-52590899FBA3}.Debug|x64.ActiveCfg = Release|x64
+		{B7ED9316-C36D-45A3-BCDA-52590899FBA3}.Debug|x64.Build.0 = Release|x64
+		{B7ED9316-C36D-45A3-BCDA-52590899FBA3}.Debug|x64.Deploy.0 = Release|x64
+		{31E74BEC-A8DB-4C60-B2E4-736A67521772}.Debug|x64.ActiveCfg = Release|x64
+		{31E74BEC-A8DB-4C60-B2E4-736A67521772}.Debug|x64.Build.0 = Release|x64
+		{31E74BEC-A8DB-4C60-B2E4-736A67521772}.Debug|x64.Deploy.0 = Release|x64
+		{4528D563-ABD5-4178-AE47-7B76816F05F7}.Debug|x64.ActiveCfg = Release|x64
+		{4528D563-ABD5-4178-AE47-7B76816F05F7}.Debug|x64.Build.0 = Release|x64
+		{52144695-5B84-406C-977A-D3F62F78BB78}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{52144695-5B84-406C-977A-D3F62F78BB78}.Debug|x64.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {285997BB-F7B7-4DE8-9FFE-7EB7D0B1C253}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://gribanov1.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = v3Library\\icFlowLibrary.csproj
+		SccProjectName1 = v3Library
+		SccLocalPath1 = v3Library
+		SccProjectUniqueName2 = collision_kernels9\\collision_kernels9.vcxproj
+		SccProjectName2 = collision_kernels9
+		SccLocalPath2 = collision_kernels9
+		SccProjectUniqueName3 = cz_kernels9\\cz_kernels9.vcxproj
+		SccProjectName3 = cz_kernels9
+		SccLocalPath3 = cz_kernels9
+		SccProjectUniqueName4 = elem_kernels9\\elem_kernels9.vcxproj
+		SccProjectName4 = elem_kernels9
+		SccLocalPath4 = elem_kernels9
+		SccProjectUniqueName5 = reduction_kernels\\reduction_kernels.vcxproj
+		SccProjectName5 = reduction_kernels
+		SccLocalPath5 = reduction_kernels
+		SccProjectUniqueName6 = PardisoLoader2\\PardisoLoader2.vcxproj
+		SccProjectName6 = PardisoLoader2
+		SccLocalPath6 = PardisoLoader2
+		SccProjectUniqueName7 = SimGUI\\SimGUI.csproj
+		SccProjectName7 = SimGUI
+		SccLocalPath7 = SimGUI
+	EndGlobalSection
+EndGlobal
