@@ -34,7 +34,8 @@ mkl_vml_mc3.dll
 
 Build PardisoLoader2.dll, which is a wrapper for MKL's PARDISO solver. PTX files do come with these project, but have to be copied to the application folder. If needed, PTXs can be rebuilt for different CUDA version or compute capability. The following CUDA source projects result in PTXs: collision_kernels, cz_kernels, elem_kernels. Build OpenTK, ManagedCUDA, icFlowLibrary, and SimGUI. Alternatively, OpenTK and OpenTK.GLControl can be obtained via NuGet.
 
-Test simulation setups are available from the following location: https://goo.gl/AvZC4u. They should be copied into '_sims' subfolder in the application path.
+Test simulation setups are available from the following location: https://goo.gl/AvZC4u. They should be copied into '_sims' subfolder in the application path. Additional setups for beam bending tests are available at:
+https://drive.google.com/file/d/1YN2MsQDhCK_P4bmKtK4HCDFSUDnfX88P/view?usp=sharing
 Additional geometries can be generated with Neper: http://neper.sourceforge.net/
 
 ![alt text](https://github.com/igorg520b/icFlow/blob/master/icFlow.png?raw=true)
